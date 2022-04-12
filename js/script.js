@@ -1,4 +1,4 @@
-function message(){
+function init(){
   function myEventFunction(){
     alert('Welcome to my Page!');
   }
@@ -11,4 +11,4 @@ function message(){
   	a1.style.color = 'rgb(28,25,15)';
   });
 }
-window.addEventListener('load', message);
+window.addEventListener('load', init);
