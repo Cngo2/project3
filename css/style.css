@@ -353,12 +353,6 @@ iframe{
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-  .contactp,
-  .skills,
-  .education,
-  .experience,
-  .projects,
-  .volunteer
   .cad,
   .exposure,
   .product,
@@ -374,12 +368,6 @@ iframe{
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
-  .contactp,
-  .skills,
-  .education,
-  .experience,
-  .projects,
-  .volunteer
   .cad,
   .exposure,
   .product,
