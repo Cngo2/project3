@@ -335,14 +335,14 @@ li.even {
   text-align: center;
 }
 #wrapper {
-  width: 900px;
-  height: 575px;
+  width: 850px;
+  height: 600px;
   background-color: #655F6B;
   margin: 0 auto;
   overflow: hidden;
 }
 #canvas {
-  width: 800px;
+  width: 700px;
   height: 500px;
   background-color: #531C83;
   margin: 30px auto;
