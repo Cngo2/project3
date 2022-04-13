@@ -7,7 +7,8 @@ function initMap() {
 
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(41.83698799755188, -87.62826743801091),
-    map: map, 
+    map, 
+    title: "Kaplan IIT",
     animation: google.maps.Animation.DROP,
     icon: 'media/batman.png'
   });
@@ -22,7 +23,8 @@ function initMap() {
 
   var marker2 = new google.maps.Marker({
     position: new google.maps.LatLng(41.835625166891816, -87.6286190237774),
-    map: map, 
+    map, 
+    title: "Hermann Hall IIT",
     animation: google.maps.Animation.DROP,
     icon: 'media/spiderman.png'
   });
