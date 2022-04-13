@@ -14,7 +14,7 @@ function initMap() {
   });
 
   var infowindow = new google.maps.InfoWindow({
-    content: "<h1>Kaplan Institute/h1><p>New building constructed for the IIT Institute of Design<p>"
+    content: "<h1>Kaplan Institute</h1><p>New building constructed for the IIT Institute of Design<p>"
   });
 
   google.maps.event.addListener(marker, 'mouseover', function() {
