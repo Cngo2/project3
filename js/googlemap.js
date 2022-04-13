@@ -8,20 +8,10 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(41.83698799755188, -87.62826743801091),
     map: map, 
-    draggable:true,
-    title:"Kaplan Institute",
     animation: google.maps.Animation.DROP,
     icon: 'media/batman.png'
   });
-  marker.addListener("click",toggleBounce);
 
-  function toggleBounce(){
-  if (marker.getAnimation() !==null){
-    marker.setAnimation(null);
-  }else{
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
   var infowindow = new google.maps.InfoWindow({
     content: "<h1>Kaplan Institute/h1><p>New building constructed for the IIT Institute of Design<p>"
   });
@@ -33,8 +23,6 @@ function initMap() {
   var marker2 = new google.maps.Marker({
     position: new google.maps.LatLng(41.835625166891816, -87.6286190237774),
     map: map, 
-    draggable:true,
-    title:"Hermann Hall",
     animation: google.maps.Animation.DROP,
     icon: 'media/spiderman.png'
   });

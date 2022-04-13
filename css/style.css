@@ -347,3 +347,48 @@ li.even {
   background-color: #531C83;
   margin: 30px auto;
 }
+
+iframe{
+  margin-top: 2em;
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  .contactp,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .volunteer
+  .cad,
+  .exposure,
+  .product,
+  .rose,
+  .dwade,
+  .pg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+  .contactp,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .volunteer
+  .cad,
+  .exposure,
+  .product,
+  .rose,
+  .dwade,
+  .pg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+}
